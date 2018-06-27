@@ -1,0 +1,41 @@
+@media only screen and (min-width: 640px){
+
+    #logo{
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        z-index : 100;
+    }
+
+    #menu{
+        width: 100%;
+        float: left;
+        text-align: center;
+        z-index: 99;
+    }
+    p{
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 960px){
+
+    #logo{
+        width: 250px;
+        position: fixed;
+        text-align: center;
+        z-index : 100;
+    }
+
+    #menu{
+        width: 100%;
+        float: left;
+        text-align: right;
+        z-index: 99;
+    }
+
+    p{
+        float: left;
+    }
+}
+
